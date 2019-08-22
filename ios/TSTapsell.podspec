@@ -6,7 +6,12 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://tapsell.ir'
   s.license          = { :type => 'ISC', :file => 'LICENSE' }
   s.author           = { 'Ahmadreza Saboor' => 'ahmadreza.saboor2012@gmail.com' }
+  s.source           = { :git => '' }
+  s.static_framework = true
+  s.vendored_frameworks = 'TapsellSDKv3.framework'
+
+  s.dependency 'React'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'TSTapsell/*’
+  s.source_files = 'TSTapsell/*'
 end
