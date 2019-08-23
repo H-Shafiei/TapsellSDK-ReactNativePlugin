@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
   s.summary          = 'Tapsell Advertising plugin for iOS react native'
 
   s.homepage         = 'https://tapsell.ir'
-  s.license          = { :type => 'ISC', :file => 'LICENSE' }
   s.author           = { 'Ahmadreza Saboor' => 'ahmadreza.saboor2012@gmail.com' }
   s.source           = { :git => '' }
   s.static_framework = true
